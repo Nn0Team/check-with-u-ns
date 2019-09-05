@@ -1,24 +1,17 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import mainModule from './mainModule';
-import registerModule from './registerModule';
-import loginModule from './loginModule';
-import userModule from './userModule';
-import dashboardModule from './dashboardModule';
+import registerModule from './modules/registerModule';
+import userModule from './modules/userModule';
+import dashboardModule from './modules/dashboardModule';
 
 Vue.use(Vuex);
 
-export default function() {
-	const Store = new Vuex.Store({
-		modules: {
-			mainModule,
-			registerModule,
-			loginModule,
-			userModule,
-			dashboardModule,
-		},
-	});
-
-	return Store;
-}
+export default new Vuex.Store({
+	strict: TNS_ENV !== 'production',
+	modules: {
+		registerModule,
+		userModule,
+		dashboardModule,
+	},
+});
