@@ -11,9 +11,14 @@
 
 android {
   defaultConfig {
+    applicationId "com.nn0team.checkwithuapp"
     minSdkVersion 17
+    targetSdkVersion 28
     generatedDensities = []
+    versionCode 1
+    versionName "v1.0.0-alpha.1"
   }
+  flavorDimensions "28"
   aaptOptions {
     additionalParameters "--no-version-vectors"
   }

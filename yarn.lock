@@ -75,6 +75,18 @@
     "@babel/traverse" "^7.4.4"
     "@babel/types" "^7.4.4"
 
+"@babel/helper-create-class-features-plugin@^7.5.5":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.6.0.tgz#769711acca889be371e9bc2eb68641d55218021f"
+  integrity sha512-O1QWBko4fzGju6VoVvrZg0RROCVifcLxiApnGP3OWfWzvxRZFCoBD81K5ur5e3bVY2Vf/5rIJm8cqPKn8HUJng==
+  dependencies:
+    "@babel/helper-function-name" "^7.1.0"
+    "@babel/helper-member-expression-to-functions" "^7.5.5"
+    "@babel/helper-optimise-call-expression" "^7.0.0"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/helper-replace-supers" "^7.5.5"
+    "@babel/helper-split-export-declaration" "^7.4.4"
+
 "@babel/helper-define-map@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-define-map/-/helper-define-map-7.5.5.tgz#3dec32c2046f37e09b28c93eb0b103fd2a25d369"
@@ -237,6 +249,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/helper-remap-async-to-generator" "^7.1.0"
     "@babel/plugin-syntax-async-generators" "^7.2.0"
+
+"@babel/plugin-proposal-class-properties@^7.5.5":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.5.5.tgz#a974cfae1e37c3110e71f3c6a2e48b8e71958cd4"
+  integrity sha512-AF79FsnWFxjlaosgdi421vmYG6/jg79bVD0dpD44QdgobzHKuLZ6S3vl8la9qIeSwGi8i1fS0O1mfuDAAdo1/A==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.5.5"
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-proposal-dynamic-import@^7.5.0":
   version "7.5.0"
@@ -2105,9 +2125,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.247:
-  version "1.3.252"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.252.tgz#5b6261965b564a0f4df0f1c86246487897017f52"
-  integrity sha512-NWJ5TztDnjExFISZHFwpoJjMbLUifsNBnx7u2JI0gCw6SbKyQYYWWtBHasO/jPtHym69F4EZuTpRNGN11MT/jg==
+  version "1.3.253"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.253.tgz#bc3b2c94c2a109c08d37b04f526dc05fdabcbb5b"
+  integrity sha512-LAwFRWViiiCSxQ2Lj3mnyEP8atkpAoHSPUnkFoy4mNabbnPHxtfseWvPCGGhewjHQI+ky/V4LdlTyyI0d3YPXA==
 
 electron@1.7.16:
   version "1.7.16"
@@ -3806,6 +3826,21 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+nativescript-app-shortcuts@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/nativescript-app-shortcuts/-/nativescript-app-shortcuts-2.1.0.tgz#5772f4527bf4e2fb1bc3615de1e213603e2b18bc"
+  integrity sha1-V3L0Unv04vsbw2Fd4eITYD4rGLw=
+
+nativescript-bubble-navigation@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/nativescript-bubble-navigation/-/nativescript-bubble-navigation-1.0.3.tgz#9b26a7411565d1ca889f776970d4b2b07009e1ff"
+  integrity sha512-Fgprn3WEwRbjSeUBIekn6+TlRfytZASk3+wRqRJmR6L0CLFYqoMOcbAzNiV/EydwCFVvJAvA7h8JYWHAz97pIw==
+
+nativescript-date-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nativescript-date-utils/-/nativescript-date-utils-1.0.0.tgz#73e7e6b833fb8e1ab3542383a9df0a95a54c7ca0"
+  integrity sha512-GdEwh2J/n3c6Lt0SfSA8CZtmaqD6q7vwoMhGQdu7f64sp0fEPIjlw+akIBd14SXkCrfmEOcjhyBwyoSXH+b0hQ==
+
 nativescript-dev-webpack@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-dev-webpack/-/nativescript-dev-webpack-1.2.0.tgz#ccfbffed438075d4bd7a9088a7a80973b9dfff21"
@@ -3855,12 +3890,48 @@ nativescript-hook@0.2.5:
     glob "^6.0.1"
     mkdirp "^0.5.1"
 
+nativescript-material-activityindicator@^2.3.23:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/nativescript-material-activityindicator/-/nativescript-material-activityindicator-2.3.23.tgz#446e2131e848240e32d6ac49e046d241283f6438"
+  integrity sha512-y4HitSoTOqpFP/EU4H4vsrK7c9lPZi8FyLJRkXNJZlKM3Emp2gpn5NJCi86N5SfX/WOVE2AIf9zlyX/vWuQdbA==
+  dependencies:
+    nativescript-material-core "^2.3.23"
+
+nativescript-material-bottomsheet@^2.3.23:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/nativescript-material-bottomsheet/-/nativescript-material-bottomsheet-2.3.23.tgz#b09157fc612a4c2365aaae85677cec81ca790dc1"
+  integrity sha512-Ok2MLAq8YwHYjODCjxnEAzL2MBUg9iYCV/jnfTeakQQI7NIeG0dPsozmzO2u28xBzmG5RiSshcPXwH15ZK1IWw==
+  dependencies:
+    nativescript-material-core "^2.3.23"
+
+nativescript-material-core@^2.3.23:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/nativescript-material-core/-/nativescript-material-core-2.3.23.tgz#d4c01738c2f7ac53852e7e7425d2179a04906d55"
+  integrity sha512-Nnmn6/tPH5QBsHePX85lyRkRi8/fXTmZVRWK/Rw5EioXUcJmZxScvSJAd+tSAVLwqsodCBg8O07GBJkyQrDhuA==
+
+nativescript-material-snackbar@^2.3.23:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/nativescript-material-snackbar/-/nativescript-material-snackbar-2.3.23.tgz#791b08d558fd59d7ec072036c477c0c1fa44fd5e"
+  integrity sha512-heN1jLOr23QWajggDTbrFOaSE2wzswNJmRO4jWxhjEzOriLklfebuZD5qcjbyKWwrmG8BJQdKM6rRwIK3a3mng==
+  dependencies:
+    nativescript-material-core "^2.3.23"
+
 nativescript-socketio@^3.2.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/nativescript-socketio/-/nativescript-socketio-3.3.1.tgz#816089e18a5d54cb8ed3a133b91a89d0d5724203"
   integrity sha512-D6MbMJAy9wjv62ga+oieIv7gxjcGA0CPGORN0VeC31WL/bdZltulu7RMPWY9uAck/4YSDIPoYVY17WGH9AXsIw==
 
-nativescript-theme-core@^2.0.15:
+nativescript-systemui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/nativescript-systemui/-/nativescript-systemui-0.0.2.tgz#3282875a23cdf07d2797c4bb70c48f9a69029f9a"
+  integrity sha512-QlLJenLbzUExIwloEes1sA9bSh7SXUH330MSyMtBOy5ZdiopUjKGGeMsy8toAmesBP4x929HjM4CWZE4y+LnKA==
+
+nativescript-tailwind@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/nativescript-tailwind/-/nativescript-tailwind-1.2.1.tgz#a9c037b5d7f3c5aa892524bea0e172ea29ce0207"
+  integrity sha512-Uq5gVbFNRpbuAGDFaalOtfB1u//k6OdG1jPPhz4oO8+4NLg4qnP4ZvuhE3at5L/xqttuUgIYh0UirygPyHVDLw==
+
+nativescript-theme-core@^2.0.17:
   version "2.0.17"
   resolved "https://registry.yarnpkg.com/nativescript-theme-core/-/nativescript-theme-core-2.0.17.tgz#77e1fb04dd6b46752ea373db51f7f11af6d7b5be"
   integrity sha512-dkkV94UMKbLgDmV/R/Vsf/lP39nKB4VJf0k0x4xgH5jCNYxN1mMnXN5GLBgaxdA6wtv/wXfuSVXe1jsj4CrZhA==
@@ -3874,6 +3945,11 @@ nativescript-vue-devtools@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nativescript-vue-devtools/-/nativescript-vue-devtools-1.2.0.tgz#188111327b6a20339eea3d63af3ab2856bfd6503"
   integrity sha512-PhE+zNbSypKut7h7ydoqGWIDBUY33y0CokU/+rA3kgJfjPZ8OnCrWcq092dUbWUtpzIiENMY/viDK0o+xgKroQ==
+
+nativescript-vue-navigator@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nativescript-vue-navigator/-/nativescript-vue-navigator-0.2.0.tgz#7dab96c8a45bbea219812896544d72a61c9fb94c"
+  integrity sha512-FBf3s84LyoCelERQ9MoAZQvGzfr2QU80MSeQKsyYSyQtHA44gBY8kX/fdU56if6DRmvyZO/gJtCMtN+bEgzROg==
 
 nativescript-vue-template-compiler@^2.0.0:
   version "2.4.0"
@@ -5638,9 +5714,9 @@ terser@3.17.0, terser@^3.16.1:
     source-map-support "~0.5.10"
 
 terser@^4.1.2:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.2.1.tgz#1052cfe17576c66e7bc70fcc7119f22b155bdac1"
-  integrity sha512-cGbc5utAcX4a9+2GGVX4DsenG6v0x3glnDi5hx8816X1McEAwPlPgRtXPJzSBsbpILxZ8MQMT0KvArLuE0HP5A==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.3.0.tgz#0259070576ff34d89c5cd2b8d91055cdce0212d5"
+  integrity sha512-w5CzrvQOwYAH54aG22IrUJI4yX1w62XQmMdEOM6H4w0ii6rc3HJ89fmcOGN5mRwBWfUgaqO7RJTp4aoY/uE+qQ==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"

@@ -1,7 +1,8 @@
-module.exports = function (api) {
-  api.cache(true)
+module.exports = function(api) {
+	api.cache(true);
 
-  return {
-    presets: [['@babel/env', { targets: { esmodules: true } }]],
-  }
-}
+	return {
+		plugins: ['@babel/plugin-proposal-class-properties'],
+		presets: [['@babel/env', { targets: { esmodules: true } }]],
+	};
+};

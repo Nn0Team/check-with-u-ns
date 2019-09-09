@@ -1,3 +1,237 @@
-// NativeScript core theme
-@import "~nativescript-theme-core/css/core.light.css";
-@import "~nativescript-theme-core/scss/index";
+@import '~nativescript-theme-core/scss/core/index';
+
+.action-bar {
+	background-color: #f9d237;
+}
+
+.page {
+	background-color: #f8f8f8;
+}
+
+.list-group,
+.list-group-item {
+	background-color: #f8f8f8;
+}
+
+.page label,
+.tab-view label {
+	color: #000000;
+}
+
+.segmented-bar {
+	selected-background-color: #f9d237;
+}
+
+.segmented-bar {
+	color: #dfba29;
+}
+
+.segmented-bar {
+	background-color: #fafeff;
+}
+
+.switch[checked='true'] {
+	color: #000000;
+}
+
+.switch[checked='true'] {
+	background-color: #f9d237;
+}
+
+.activity-indicator {
+	color: #f9d237;
+}
+
+.slider {
+	color: #000000;
+}
+
+.slider {
+	background-color: #f9d237;
+}
+
+.progress {
+	color: #f9d237;
+}
+
+.img-circle {
+	border-radius: 20;
+}
+
+.list-group-item-heading {
+	font-size: 16;
+}
+
+.list-group-item-text {
+	font-size: 14;
+}
+
+.img-rounded {
+	border-radius: 5;
+}
+
+.img-login {
+	background-size: 50%;
+}
+
+.body {
+	font-size: 14;
+}
+
+.text-primary {
+	color: #f9d237;
+}
+
+.text-secondary {
+	color: #a78d28;
+}
+
+.h1 {
+	font-size: 36;
+}
+
+.h2 {
+	font-size: 30;
+}
+
+.h3 {
+	font-size: 24;
+}
+
+.h4 {
+	font-size: 18;
+}
+
+.h5 {
+	font-size: 14;
+}
+
+.h6 {
+	font-size: 12;
+}
+
+.page label.text-primary,
+.tab-view label.text-primary {
+	color: #f9d237;
+}
+
+.page label.bg-primary,
+.tab-view label.bg-primary {
+	background-color: #f9d237;
+}
+
+.page label.text-danger,
+.tab-view label.text-danger {
+	color: #d9534f;
+}
+
+.page label.bg-danger,
+.tab-view label.bg-danger {
+	background-color: #d9534f;
+}
+
+.page label.text-muted,
+.tab-view label.text-muted {
+	color: #a2a2a2;
+}
+
+.btn {
+	color: #f0c000;
+}
+
+.btn-flat {
+	background-color: transparent;
+	border: none;
+}
+
+.btn-primary {
+	background-color: #f9d237;
+}
+
+.btn-primary {
+	border-color: #f9d237;
+}
+
+.btn-primary {
+	color: #ffffff;
+}
+
+.btn-outline {
+	background-color: transparent;
+}
+
+.btn[isEnabled='false'] {
+	background-color: #d9d9d9;
+}
+
+.btn[isEnabled='false'] {
+	border-color: #d9d9d9;
+}
+
+.btn[isEnabled='false'] {
+	color: #efefef;
+}
+
+.btn-rounded-sm {
+	border-radius: 4;
+}
+
+.btn-rounded-lg {
+	border-radius: 23;
+}
+
+.label {
+	font-size: 16;
+}
+
+.input {
+	font-size: 14;
+}
+
+.input-rounded {
+	border-radius: 9;
+}
+
+.tab-view {
+	selected-tab-text-color: #ffffff;
+}
+
+.tab-view {
+	tab-text-color: #ffffff;
+}
+
+.tab-view {
+	tab-background-color: #f9d237;
+}
+
+.tab-view {
+	android-selected-tab-highlight-color: #f9d237;
+}
+
+.sidedrawer-header {
+	background-color: #f9d237;
+}
+
+.sidedrawer-header-brand {
+	color: #ffffff;
+}
+
+.sidedrawer-content {
+	background-color: #fafeff;
+}
+
+.sidedrawer-list-item {
+	color: #000000;
+}
+
+.sidedrawer-list-item.active {
+	background-color: #fafeff;
+}
+
+.sidedrawer-list-item.active {
+	color: #000000;
+}
+
+.left-gradient {
+	background: linear-gradient(to bottom, #d66e6e, #f7efdf);
+}

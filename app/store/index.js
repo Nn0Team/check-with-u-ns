@@ -7,7 +7,7 @@ import dashboardModule from './modules/dashboardModule';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+export const store = new Vuex.Store({
 	strict: TNS_ENV !== 'production',
 	modules: {
 		registerModule,
@@ -15,3 +15,5 @@ export default new Vuex.Store({
 		dashboardModule,
 	},
 });
+
+Vue.prototype.$store = store;
