@@ -1,14 +1,13 @@
-import loginModel from '../../models/loginModel';
-
 export default {
 	data() {
 		return {
-			key: value,
+			userName: null,
+			password: null,
 		};
 	},
-	computed: {
-		name() {
-			return this.data;
+	methods: {
+		submitLogin() {
+			this.$navigator.navigate('/dashboard', { clearHistory: true });
 		},
 	},
 };
